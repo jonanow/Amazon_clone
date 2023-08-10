@@ -324,12 +324,16 @@
     display: block;
     padding-left: 55px;
     padding-right: 0;
-    text-align: left;
+    text-align: start;
     justify-content: start;
-    width: max-content;
+    width: 1000px;
   }
   .main__mobile-portada {
     width: 100%;
+    display: flex;
+    justify-content: center;
+    object-fit: cover;
+
   }
   .main__mobile-tittle {
     /* width: 300px; */
